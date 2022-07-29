@@ -1,6 +1,8 @@
 import React from "react";
 import {BrowserRouter as Route, Routes, Router} from "react-router-dom";
 import NavBar from "./components/Nav/Nav.js";
+import Footer from "./components/Footer.js";
+import "./App.css";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/contact";
@@ -30,6 +32,7 @@ function App() {
  <>
 
  <NavBar/>
+ <Footer/>
 
      
    </>

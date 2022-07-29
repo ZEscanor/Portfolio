@@ -17,6 +17,7 @@ display: flex;
 align-items: center;
 text-decoration: none;
 padding-right: 10px;
+width:100%
 height: 100%;
 cursor: pointer;
 `
