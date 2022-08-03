@@ -21,14 +21,12 @@ const NavBar = () => {
         <NavLink className="Links" to="/">
          <h1>Home</h1>        
         </NavLink> 
-        <Bars onClick={()=> {
+        {/* <Bars onClick={()=> {
           setExpand((prev)=> !prev);
-          }} />
+          }} /> */}
         <NavMenu>
-        <NavLink  className="Links" to="about" activeStyle>About
+        <NavLink  className="Links" to="/experience" activeStyle>Experience
          </NavLink>
-        <NavLink  className="Links" to="/contact" activeStyle >Contact
-        </NavLink>
         <NavLink className="Links" to="/project/1"activeStyle>
                 Projects
         </NavLink>
