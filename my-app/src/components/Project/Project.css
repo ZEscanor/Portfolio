@@ -1,0 +1,11 @@
+
+
+.pImage{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 20%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

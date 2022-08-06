@@ -27,7 +27,7 @@ const NavBar = () => {
         <NavMenu>
         <NavLink  className="Links" to="/experience" activeStyle>Experience
          </NavLink>
-        <NavLink className="Links" to="/project/1"activeStyle>
+        <NavLink className="Links" to="/projects"activeStyle>
                 Projects
         </NavLink>
         </NavMenu>
