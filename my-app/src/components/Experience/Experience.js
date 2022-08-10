@@ -1,12 +1,42 @@
 
 import React from "react";
+import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import SchoolIcon from "@mui/icons-material/School";
+import WorkIcon from "@mui/icons-material/Work";
 
 export default function Experience(){
     return (
-    <div >
-    <h1>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam turpis non congue scelerisque. Nullam nec faucibus ante, non interdum urna. Pellentesque ac pulvinar ante. Donec ornare, dolor mattis vulputate luctus, neque ante sagittis leo, nec pharetra arcu urna non nibh. Etiam nec leo nec lorem rutrum laoreet nec vel lorem. Pellentesque congue orci eget dolor scelerisque lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin mollis magna sit amet leo tempor, consequat aliquet urna venenatis.
-    </h1> 
+    <div className="Experience" >
+      <VerticalTimeline lineColor="red">
+        <VerticalTimelineElement className="vertical-timeline-element--education" 
+        date="2016-2020"
+        iconStyle={{background:"red", color:"black"}}
+        icon={<SchoolIcon/>}>
+          <h2 className="vertical-timeline-element-title"> University Of Illinois at Chicago</h2>
+          <p> Matematical Computer Science Bachelor Degree</p>
+          
+        </VerticalTimelineElement>
+        <VerticalTimelineElement className="vertical-timeline-element--education" 
+        date="2020-2021"
+        iconStyle={{background:"red", color:"black"}}
+        icon={<SchoolIcon/>}>
+          <h2 className="vertical-timeline-element-title"> Lambda School</h2>
+          <p> Full Stack Web Development Certification</p>
+          
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement className="vertical-timeline-element--education" 
+        date="2021"
+        iconStyle={{background:"red", color:"black"}}
+        icon={<WorkIcon/>}>
+          <h2 className="vertical-timeline-element-title"> Lambda School</h2>
+          <p> Peer Tutor</p>
+          
+        </VerticalTimelineElement>
+      </VerticalTimeline>
+  
+
     </div>)
   }
   
