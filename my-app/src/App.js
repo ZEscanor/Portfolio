@@ -6,7 +6,8 @@ import "./App.css";
 import Home from "./components/Home/Home";
 import Experience from "./components/Experience/Experience";
 import Project from "./components/Project/Project.js";
-
+import { projectObject } from "./components/Project/ProjectObject.js";
+import { ProjectPage } from "./components/Project/ProjectPage.js";
 
 
 
@@ -25,7 +26,7 @@ function App() {
     <Route path="/" element={<Home/>}/>
     <Route path="/experience" element={<Experience/>}/>
     <Route path="/projects" element={<Project/>}/>
-    
+    <Route path= "/project/:id" element= {<ProjectPage/>}/>
     </Routes>
     <Footer/>
     </Router>
